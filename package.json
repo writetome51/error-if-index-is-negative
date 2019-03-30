@@ -1,14 +1,14 @@
 {
-  "name": "error-if-index-not-valid",
+  "name": "error-if-index-is-negative",
   "version": "1.0.0",
-  "description": "Function triggers error if a given index cannot exist in a given array length",
+  "description": "Function triggers error if a given index is a negative number, meaning the item was not found in the array.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/writetome51/error-if-index-not-valid.git"
+    "url": "git+https://github.com/writetome51/error-if-index-is-negative.git"
   },
   "keywords": [
     "array",
@@ -21,10 +21,10 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/writetome51/error-if-index-not-valid/issues"
+    "url": "https://github.com/writetome51/error-if-index-is-negative/issues"
   },
-  "homepage": "https://github.com/writetome51/error-if-index-not-valid#readme",
+  "homepage": "https://github.com/writetome51/error-if-index-is-negative#readme",
   "dependencies": {
-    "@writetome51/index-is-valid": "~1.0.0"
+    "basic-data-handling": "~1.0.15"
   }
 }

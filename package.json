@@ -1,7 +1,8 @@
 {
   "name": "error-if-index-is-negative",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Function triggers error if a given index is a negative number, meaning the item was not found in the array.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +26,5 @@
   },
   "homepage": "https://github.com/writetome51/error-if-index-is-negative#readme",
   "dependencies": {
-    "error-if-not-integer": "~1.0.0"
   }
 }
